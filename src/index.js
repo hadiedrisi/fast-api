@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/mycargarage')
+mongoose.connect('mongodb://localhost/mycargarage',{ useNewUrlParser: true })
 	.then(()=>{
 	console.log('mongoDB Connected...');	
 	})
@@ -10,6 +10,13 @@ const fastify = require('fastify')({
 
 	logger:true
 });
+
+const routes = require('../routes');
+routes.forEach((route, index) => {
+	fastify.route(route)
+   })
+
+
 
 fastify.get('/',async(request,reply)=>{
 
