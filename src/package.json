@@ -1,23 +1,26 @@
 {
-  "name": "p",
-  "version": "0.0.0",
-  "description": "nothing",
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm start"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    
+    "url": "git+https://github.com/hadiedrisi/fast-api.git"
   },
-  "keywords": [
-    "fast",
-    "api"
-  ],
-  "author": "hadiedrisi",
+  "author": "hadiedris",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hadiedrisi/fast-api/issues"
   },
-  "homepage": "https://github.com/hadiedrisi/fast-api#readme"
+  "homepage": "https://github.com/hadiedrisi/fast-api#readme",
+  "dependencies": {
+    "boom": "^7.3.0",
+    "fastify": "^2.4.1",
+    "fastify-swagger": "^2.4.0",
+    "mongoose": "^5.5.11",
+    "nodemon": "^1.19.0"
+  }
 }
