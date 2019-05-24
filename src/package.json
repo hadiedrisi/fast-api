@@ -1,0 +1,23 @@
+{
+  "name": "p",
+  "version": "0.0.0",
+  "description": "nothing",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    
+  },
+  "keywords": [
+    "fast",
+    "api"
+  ],
+  "author": "hadiedrisi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hadiedrisi/fast-api/issues"
+  },
+  "homepage": "https://github.com/hadiedrisi/fast-api#readme"
+}
